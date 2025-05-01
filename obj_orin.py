@@ -1,8 +1,17 @@
+import cowsay
+import pyttsx3
+
+engine =pyttsx3.init()
+this =input("what is your name")
+cowsay.cow(this)
+engine.say(this)
+engine.runAndWait()
+
 #this is object orineted programing in python
 # iam live my dream life now
 
 # This is the inheritence in classes
-
+"""
 class wizard:
     def __init__(self, name):
         if not name:
@@ -24,3 +33,8 @@ class professor(wizard):
 wizard= wizard("abhi")
 student=("Abhijeet", "kaneradev")
 professor=("Vaibhav","machine learning")
+
+print(student)
+print(professor)
+
+"""
